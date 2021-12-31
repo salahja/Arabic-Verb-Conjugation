@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+
+
+    <PreferenceCategory
+
+        app:key="theme_category"
+        app:title="Theme">
+        <ListPreference
+
+            android:defaultValue="en"
+            android:entries="@array/lang_names"
+            android:entryValues="@array/lang_codes"
+            android:key="lang"
+            android:title="@string/lang" />
+        <ListPreference
+            app:defaultValue="dark"
+            app:dialogTitle="Choose theme"
+            app:entries="@array/themeListArray"
+            app:entryValues="@array/themeEntryArray"
+            app:key="theme"
+            app:title="Choose theme"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+
+        app:key="theme_category"
+        app:title="Conjugator AutoComplete">
+
+        <ListPreference
+            android:defaultValue="@string/indicative"
+            android:entries="@array/verbmoodsList"
+            android:entryValues="@array/verbmoodEntry"
+           android:summary="@string/moodsummar"
+            android:key="verbcase"
+            android:title="Verb Moods" />
+
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:key="arabic_font_category"
+        app:title="Arabic Fonts">
+
+        <ListPreference
+            android:defaultValue="me_quran.ttf"
+            android:entries="@array/arabicFontListArray"
+            android:entryValues="@array/arabicFontEntryArray"
+
+            android:key="Arabic_Font_Selection"
+            android:title="Arabic Font Selection" />
+        <ListPreference
+            android:defaultValue="22"
+            android:entries="@array/arabicFontSizeListArray"
+            android:entryValues="@array/arabicFontSizeEntryArray"
+
+            android:key="Arabic_Font_Size"
+            android:title="Arabic font size" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+
+        app:key="sarfkabeer_display"
+        app:title="Sarf Kabeer Display">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="sarfkabeer_format_verb"
+            android:title="Traditional-Verb Conjugation" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="sarfkabeer_format_participles"
+            android:title="Traditional-Participles etc" />
+
+        <Preference
+            android:defaultValue="exit"
+            android:title="Exit"
+            app:fragment="org.sj.verbs.activity.SettingsActivity"
+            app:icon="@drawable/ic_baseline_history_pink_24"
+            app:iconSpaceReserved="true"
+
+            app:key="Exit" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Verbs</string>
+
+
+    <string name="faelmazi">فِعلًٌَ ماضٍ</string>
+    <string name="faelmudhary"> مُضارِعٌٍ</string>
+    <string name="faelmadimajhool">ماض مجحول </string>
+    <string name="faelmudharymajhol">مُضارع مجحول</string>
+    <string name="faelamr">الامر</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+
+    <string name="ismalaone">مِفْعَلٌ</string>
+    <string name="ismalatwo">مِفْعَلَةٌ</string>
+    <string name="ismalthree">مِفْعَالٌ</string>
+
+
+    <string name="zarfmafalun">مَفْعَلٌ</string>
+    <string name="zarfmafilun">مَفْعِلٌ</string>
+    <string name="zarfmafalatun">مَفْعَلةٌ</string>
+
+    <string-array name="verbliststhulathienglish">
+        <item>ثلاثي-اختيار</item>
+        <item>1.ثلاثي سالم</item>
+        <item>2.ثلاثي Mahmooz FA</item>
+        <item>3.ثلاثي Mahmooz Ayn</item>
+        <item>4.ثلاثي Mahmooz Lam</item>
+        <item>5.ثلاثي Mithal Wawi</item>
+        <item>7.ثلاثي Mithal Yayi</item>
+        <item>7.ثلاثي Ajwaf Wawi</item>
+        <item>8.ثلاثي Ajwaf Yayi</item>
+        <item>9.ثلاثي Mudhaf</item>
+        <item>10.ثلاثي NaqisWAWI</item>
+        <item>11.ثلاثي NaqisYAYI</item>
+        <item>12.ثلاثي Lafeef Mafrooq</item>
+        <item>13.ثلاثي Lafeef Maqroon</item>
+
+
+    </string-array>
+</resources>

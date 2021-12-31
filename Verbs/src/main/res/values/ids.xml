@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="verbroot" type="id" />
+
+    <item name="divider" type="id" />
+    <item name="dismissView" type="id" />
+    <item name="babno" type="id" />
+    <item name="rootword" type="id" />
+    <item name="zarftable" type="id" />
+    <item name="weknessname" type="id" />
+
+    <item name="muzhumaf" type="id" />
+    <item name="muzantuma" type="id" />
+    <item name="muznahnu" type="id" />
+
+
+    <item name="madimajhua" type="id" />
+    <item name="madimajhuma" type="id" />
+    <item name="madimajhum" type="id" />
+    <item name="madimajhia" type="id" />
+    <item name="madimajhumaf" type="id" />
+    <item name="madimajhunna" type="id" />
+    <item name="madimajanta" type="id" />
+    <item name="madimajantuma" type="id" />
+    <item name="madimajantum" type="id" />
+    <item name="madimajanti" type="id" />
+    <item name="madimajantumaf" type="id" />
+    <item name="madimajantunna" type="id" />
+    <item name="madimajana" type="id" />
+
+    <item name="madimajnahnu" type="id" />
+
+
+
+
+
+    <item name="muzmajhua" type="id" />
+    <item name="muzmajhuma" type="id" />
+    <item name="muzmajhum" type="id" />
+    <item name="muzmajhia" type="id" />
+    <item name="muzmajhumaf" type="id" />
+    <item name="muzmajhunna" type="id" />
+    <item name="muzmajanta" type="id" />
+    <item name="muzmajantuma" type="id" />
+    <item name="muzmajantum" type="id" />
+    <item name="muzmajanti" type="id" />
+    <item name="muzmajantumaf" type="id" />
+    <item name="muzmajantunna" type="id" />
+    <item name="muzmajana" type="id" />
+
+    <item name="muzmajnahnu" type="id" />
+    <item name="wazan" type="id" />
+    <item name="madhihua" type="id" />
+    <item name="madhihia" type="id" />
+    <item name="madhiana" type="id" />
+    <item name="madhinahnu" type="id" />
+    <item name="madhianti" type="id" />
+    <item name="madhiantunna" type="id" />
+    <item name="muzanta" type="id" />
+    <item name="muzanti" type="id" />
+    <item name="amranti" type="id" />
+    <item name="muzhua" type="id" />
+    <item name="muzana" type="id" />
+    <item name="muzhia" type="id" />
+    <item name="amranta" type="id" />
+    <item name="ismfail" type="id" />
+    <item name="masdar" type="id" />
+    <item name="mumaroof" type="id" />
+    <item name="mamaroof" type="id" />
+    <item name="ismmafool" type="id" />
+    <item name="masdar2" type="id" />
+    <item name="mumajhool" type="id" />
+    <item name="mamajhool" type="id" />
+    <item name="nahiamr" type="id" />
+    <item name="amr" type="id" />
+    <item name="nahiamranti" type="id" />
+    <item name="nahiamranta" type="id" />
+    <item name="ismalaheader" type="id" />
+    <item name="chaptername" type="id" />
+    <item name="thulathibab" type="id" />
+    <item name="verbtype" type="id" />
+    <item name="verb" type="id" />
+    <item name="pastactive" type="id" />
+    <item name="negcommand" type="id" />
+    <item name="command" type="id" />
+    <item name="presentpassive" type="id" />
+    <item name="pastpassive" type="id" />
+    <item name="presentactive" type="id" />
+    <item name="huaid" type="id" />
+    <item name="humid" type="id" />
+    <item name="hiaid" type="id" />
+    <item name="humamid" type="id" />
+    <item name="humafid" type="id" />
+    <item name="hunnaid" type="id" />
+    <item name="antaid" type="id" />
+    <item name="antumamid" type="id" />
+    <item name="antumid" type="id" />
+    <item name="antiid" type="id" />
+    <item name="antumafid" type="id" />
+    <item name="antunnaid" type="id" />
+    <item name="nahnuid" type="id" />
+    <item name="anaid" type="id" />
+    <item name="pronouns" type="id" />
+    <item name="madhianta" type="id" />
+    <item name="emphasized" type="id" />
+    <item name="recview" type="id" />
+    <item name="bottomSheetView" type="id" />
+    <item name="tvKovName" type="id" />
+    <item name="tvKovNumber" type="id" />
+    <item name="jussive" type="id" />
+    <item name="subj" type="id" />
+    <item name="referenceView" type="id" />
+    <item name="meaning" type="id" />
+    <item name="rootward" type="id" />
+    <item name="arabicword" type="id" />
+    <item name="wordDictionary" type="id" />
+    <item name="wordDictionaryUrdu" type="id" />
+
+
+</resources>

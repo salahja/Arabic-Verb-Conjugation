@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="Verbs/src/main/res/drawable/ic_baseline_history_pink_24.xml" value="0.13020833333333334" />
+        <entry key="Verbs/src/main/res/drawable/oval_button.xml" value="0.18697916666666667" />
+        <entry key="Verbs/src/main/res/drawable/roundedbutton.xml" value="1.0" />
+        <entry key="Verbs/src/main/res/layout/acon_key_activity_edittext.xml" value="0.17083333333333334" />
+        <entry key="Verbs/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="Verbs/src/main/res/layout/activity_newtabs.xml" value="0.17083333333333334" />
+        <entry key="Verbs/src/main/res/layout/activity_verb_conjugation.xml" value="0.1" />
+        <entry key="Verbs/src/main/res/layout/conjugator_bottom_menu.xml" value="0.11822916666666666" />
+        <entry key="Verbs/src/main/res/layout/enlish_lughat.xml" value="0.21" />
+        <entry key="Verbs/src/main/res/layout/ismalasktraditional.xml" value="0.15520833333333334" />
+        <entry key="Verbs/src/main/res/layout/ismfaelmafoolcolumkabeer.xml" value="0.25" />
+        <entry key="Verbs/src/main/res/layout/ismfaelmafoolsktraditional.xml" value="0.1140625" />
+        <entry key="Verbs/src/main/res/layout/ismzarfcolumnkabeer.xml" value="0.15520833333333334" />
+        <entry key="Verbs/src/main/res/layout/ismzarfkbtraditional.xml" value="0.1140625" />
+        <entry key="Verbs/src/main/res/layout/keyboard_activity.xml" value="0.33" />
+        <entry key="Verbs/src/main/res/layout/layout_loading_dialog.xml" value="0.17083333333333334" />
+        <entry key="Verbs/src/main/res/layout/layout_loading_verblist.xml" value="0.17083333333333334" />
+        <entry key="Verbs/src/main/res/layout/main_activity.xml" value="0.1140625" />
+        <entry key="Verbs/src/main/res/layout/mujarrad_bottom_fragment.xml" value="0.13125" />
+        <entry key="Verbs/src/main/res/layout/newsarfkabeercolumn.xml" value="0.1" />
+        <entry key="Verbs/src/main/res/layout/refactacon_key_activity_autocomplete.xml" value="0.1140625" />
+        <entry key="Verbs/src/main/res/layout/round_arabic_keyboard.xml" value="0.17083333333333334" />
+        <entry key="Verbs/src/main/res/layout/rules.xml" value="0.15208333333333332" />
+        <entry key="Verbs/src/main/res/layout/sarfkabeerheader.xml" value="0.1" />
+        <entry key="Verbs/src/main/res/layout/thulathilistingnotoolbar.xml" value="0.17083333333333334" />
+        <entry key="Verbs/src/main/res/layout/verbsarfkabeertraditional.xml" value="0.1" />
+        <entry key="Verbs/src/main/res/layout/verbscolumnkabeer.xml" value="0.25" />
+        <entry key="Verbs/src/main/res/layout/verbupdatedict.xml" value="0.1" />
+        <entry key="Verbs/src/main/res/xml/root_preferences.xml" value="0.33" />
+        <entry key="Verbs/src/main/res/xml/verbpreferences.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <pattern value="org.sj.verbs.adapter.rulesbottomsheetadapter" method="setVerbArrayList" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

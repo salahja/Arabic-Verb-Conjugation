@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    app:barrierMargin="2.0dip"
+    app:cardElevation="@dimen/space_1">
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="12dp"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:dividerHeight="0.0px"
+        app:cardCornerRadius="12dp"
+
+
+        app:cardElevation="10dp"
+        app:cardPreventCornerOverlap="false"
+        app:layout_anchorGravity="bottom"
+        app:rippleColor="@color/colorAccent"
+
+
+        app:strokeColor="@color/color_primary_variant"
+        app:strokeWidth="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@id/tvKovNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_marginStart="@dimen/space_3"
+                android:textSize="18.0sp" />
+
+            <TextView
+
+                android:id="@id/tvKovName"
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                 android:singleLine="true"
+                android:textAlignment="center"
+                android:maxLines="1"
+
+
+                android:paddingStart="1.0dip"
+                android:paddingEnd="1.0dip"
+                android:autoSizeMinTextSize="5sp"
+                android:autoSizeMaxTextSize="26sp"
+                android:autoSizeStepGranularity="6sp"
+
+
+                />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

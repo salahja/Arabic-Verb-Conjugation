@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--
+Because the window insets on round devices are larger than 15dp, this padding only applies
+to square screens.
+-->
+
+<!--
+This padding applies to both square and round screens. The total padding between the buttons
+and the window insets is box_inset_layout_padding (above variable) on square screens and
+inner_frame_layout_padding (below variable) on round screens.
+-->
+<!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!-- Dimens for staggered asymmetric grid layout cards-->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="fab_margin">6dp</dimen>
+    <dimen name="space_3">16.0dip</dimen>
+    <!--
+    Because the window insets on round devices are larger than 15dp, this padding only applies
+    to square screens.
+    -->
+
+    <!--
+    This padding applies to both square and round screens. The total padding between the buttons
+    and the window insets is box_inset_layout_padding (above variable) on square screens and
+    inner_frame_layout_padding (below variable) on round screens.
+    -->
+    <dimen name="space_1">4.0dip</dimen>
+    <dimen name="space_2">8.0dip</dimen>
+
+
+    <dimen name="mushaf_small_component_corner_radius">24dp</dimen>
+<dimen name="mushaf_medium_component_corner_radius">5dp</dimen>
+<dimen name="mushaf_large_component_corner_radius">22dp</dimen>
+
+</resources>
+
+
+

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="enverbheadings">
+        <item>Pronouns</item>
+        <item>Past Active</item>
+        <item>Present Active</item>
+        <item>Past Passive </item>
+        <item>Present Passive</item>
+        <item>Command</item>
+        <item>"Negative Command" </item>
+
+    </string-array>
+
+
+    <string-array name="arismfaelmafoolheadings">
+
+
+        <item>" الاسم الفاعل(مُذَّكَر)</item>
+        <item>" الاسم الفاعل(مُئَنَّس)</item>
+        <item>"الاسم المفعول(مُذَّكَر)</item>
+        <item>"الاسم المفعول(مُئَنَّس)</item>
+
+
+    </string-array>
+
+
+    <string-array name="enismfaelmafoolheadings">
+
+        <item>Act.-M</item>
+        <item>Act.-F</item>
+        <item>Pass.-M </item>
+        <item>Pass.-F</item>
+
+    </string-array>
+
+
+    <string-array name="arverbheadings">
+        <item>الْضَّمَائِر </item>
+        <item>ماض مَعْرُوف</item>
+        <item> مُضارِعٌٍ مَعْرُوف</item>
+        <item>ماض مجحول </item>
+        <item>مُضارع مجحول</item>
+        <item>الامر</item>
+        <item> نَهْي الامر</item>
+    </string-array>
+
+
+    <string-array name="ennumbers">
+
+
+        <item>Singular</item>
+        <item>Dual</item>
+        <item>Plural</item>
+
+    </string-array>
+    <string-array name="arnumbers">
+
+
+        <item>مفرد</item>
+        <item>مثنى</item>
+        <item>جمع</item>
+
+    </string-array>
+
+
+    <string-array name="lang_names">
+
+        <item>English</item>
+        <item>Arabic</item>
+    </string-array>
+
+    <string-array name="lang_codes">
+
+        <item>en</item>
+        <item>ar</item>
+    </string-array>
+
+
+    <string-array name="themeListArray">
+        <item>White</item>
+        <item>Dark Black</item>
+        <item>Dark Blue</item>
+
+        <item>Brown</item>
+
+    </string-array>
+
+    <string-array name="themeEntryArray">
+        <item>white</item>
+        <item>dark</item>
+        <item>blue</item>
+
+        <item>brown</item>
+    </string-array>
+
+    <string-array name="arabicFontListArray">
+        <item>Amiri</item>
+        <item>AlQalam</item>
+        <item>PDMS</item>
+        <item>NooreHuda</item>
+        <item>NooreHIRA</item>
+        <item>Montserrat</item>
+        <item>me_Quran</item>
+    </string-array>
+
+    <string-array name="arabicFontEntryArray">
+        <item>amiri.ttf</item>
+        <item>AlQalam.ttf</item>
+        <item>Pdms.ttf</item>
+        <item>NooreHuda.ttf</item>
+        <item>NooreHira.ttf</item>
+        <item>Montserrat.ttf</item>
+        <item>me_quran.ttf</item>
+    </string-array>
+    <string-array name="arabicFontSizeListArray">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>23</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+
+    </string-array>
+
+
+    <string-array name="arabicFontSizeEntryArray">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>23</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+
+    </string-array>
+    <!-- Reply Preference -->
+
+    <string-array name="verbmoodsList">
+        <item>Indicative(مرفوع)</item>
+        <item>Subjunctive(منصوب)</item>
+        <item>Jussive(مجزوم)</item>
+        <item>Emphasized</item>
+
+    </string-array>
+
+    <string-array name="verbmoodEntry">
+        <item>Indicative</item>
+        <item>Subjunctive</item>
+        <item>Jussive</item>
+        <item>Emphasized</item>>
+    </string-array>
+
+
+    <array name="autosize_text_sizes">
+
+
+        <item>22sp</item>
+        <item>24sp</item>
+        <item>28sp</item>
+    </array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_centerHorizontal="true"
+    android:gravity="center_horizontal"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="100dp"
+    app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+
+    <Button
+        android:layout_marginTop="600dp"
+        android:id="@+id/conjugatorsetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:foregroundGravity="center_horizontal"
+
+
+        android:autoSizeMaxTextSize="30sp"
+        android:autoSizeMinTextSize="17sp"
+        android:autoSizeStepGranularity="2sp"
+        android:autoSizeTextType="none"
+
+        android:elevation="10dp"
+        android:foreground="@drawable/bottom_app_bar_title_foreground"
+        android:gravity="center_horizontal"
+        android:text="@string/settings_conjugator"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

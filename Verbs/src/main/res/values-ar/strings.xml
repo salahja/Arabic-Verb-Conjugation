@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Verbs</string>
+
+    <string name="listin">Select</string>
+
+    <string name="lang">Language</string>
+
+    <string name="faelmazi">ماض مَعْرُوف</string>
+    <string name="faelmudhary"> مُضارِعٌٍ مَعْرُوف</string>
+    <string name="faelmadimajhool">ماض مجحول </string>
+    <string name="faelmudharymajhol">مُضارع مجحول</string>
+    <string name="faelamr">الامر</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+
+
+    <string name="ismalaone">مِفْعَلٌ</string>
+    <string name="ismalatwo">مِفْعَلَةٌ</string>
+    <string name="ismalthree">مِفْعَالٌ</string>
+
+
+    <string name="zarfmafalun">مَفْعَلٌ</string>
+    <string name="zarfmafilun">مَفْعِلٌ</string>
+    <string name="zarfmafalatun">مَفْعَلةٌ</string>
+
+    <string-array name="verbliststhulathienglish">
+        <item>ثلاثي-اختيار</item>
+        <item>1.ثلاثي سالم</item>
+        <item>2.ثلاثي مَهْمُوْزُ الفاءِ</item>
+        <item>3.ثلاثي  مَهْمُوْزُ العَيْنِ</item>
+        <item>4.ثلاثي  مَهْمُوْزُ الاَمِ</item>
+        <item>5.ثلاثي  الْمِثَالُ الوَاوِيُّ</item>
+        <item>7.ثلاثي   الْمِثَالُ اليائِيُّ</item>
+        <item>7.ثلاثي الْأجْوافُ الوَاوِيُّ</item>
+        <item>8.ثلاثي الْأجْوافُ اليائِيُّ</item>
+        <item>9.ثلاثي مُضَافُ</item>
+        <item>10.ثلاثي النَّاقِصُ الوَاوِيُّ</item>
+        <item>11.ثلاثي النَّاقِصُ اليائِيُّ</item>
+        <item>12.ثلاثي  اللّفِيْفُ المَفْرُمْقُ</item>
+        <item>13.ثلاثي  اللّفِيْفُ المَقْروْنُ</item>
+
+
+    </string-array>
+
+</resources>

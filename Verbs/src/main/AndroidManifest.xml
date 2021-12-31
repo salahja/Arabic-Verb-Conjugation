@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+
+    package="org.sj.verbs">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission. WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:name=".VerbConjugaorApp"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DarkBlue">
+
+        <activity
+            android:name=".sarf.MainActivity"
+            android:label="@string/title_activity_main"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SarfSagheerActivity"
+            android:parentActivityName=".sarf.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".sarf.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:parentActivityName=".sarf.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:label="@string/title_activity_settings"
+                android:value=".sarf.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.NewTabsActivity"
+            android:parentActivityName=".sarf.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".sarf.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.ConjugatorAct"
+            android:parentActivityName=".sarf.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".sarf.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>
