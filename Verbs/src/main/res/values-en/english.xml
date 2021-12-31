@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">VerbsIsms</string>
+
+
+    <string name="listin">Select</string>
+
+    <string name="faelmazi">Past Activeٍ</string>
+    <string name="faelmudhary">Present Active</string>
+    <string name="faelmadimajhool">Past Passive </string>
+    <string name="faelmudharymajhol">Present Passive</string>
+    <string name="faelamr">Command</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+
+    <string name="ismalaone">مِفْعَلٌ</string>
+    <string name="ismalatwo">مِفْعَلَةٌ</string>
+    <string name="ismalthree">مِفْعَالٌ</string>
+
+
+    <string name="zarfmafalun">مَفْعَلٌ</string>
+    <string name="zarfmafilun">مَفْعِلٌ</string>
+    <string name="zarfmafalatun">مَفْعَلةٌ</string>
+    <string name="lang">Language</string>
+
+
+
+    <string-array name="verbliststhulathienglish">
+        <item>Thulathi-Selection</item>
+        <item>1.Thulathi Regular</item>
+        <item>2.Thulathi Mahmooz FA</item>
+        <item>3.Thulathi Mahmooz Ayn</item>
+        <item>4.Thulathi Mahmooz Lam</item>
+        <item>5.Thulathi Mithal Wawi</item>
+        <item>7.Thulathi Mithal Yayi</item>
+        <item>7.Thulathi Ajwaf Wawi</item>
+        <item>8.Thulathi Ajwaf Yayi</item>
+        <item>9.Thulathi Mudhaf</item>
+        <item>10.Thulathi NaqisWAWI</item>
+        <item>11.Thulathi NaqisYAYI</item>
+        <item>12.Thulathi Lafeef Mafrooq</item>
+        <item>13.Thulathi Lafeef Maqroon</item>
+
+
+    </string-array>
+
+    <string-array name="verbliststhulathiarabic">
+        <item>ثلاثي-اختيار</item>
+        <item>1.ثلاثي سالم</item>
+        <item>2.ثلاثي مَهْمُوْزُ الفاءِ</item>
+        <item>3.ثلاثي  مَهْمُوْزُ العَيْنِ</item>
+        <item>4.ثلاثي  مَهْمُوْزُ الاَمِ</item>
+        <item>5.ثلاثي  الْمِثَالُ الوَاوِيُّ</item>
+        <item>7.ثلاثي   الْمِثَالُ اليائِيُّ</item>
+        <item>7.ثلاثي الْأجْوافُ الوَاوِيُّ</item>
+        <item>8.ثلاثي الْأجْوافُ اليائِيُّ</item>
+        <item>9.ثلاثي مُضَافُ</item>
+        <item>10.ثلاثي النَّاقِصُ الوَاوِيُّ</item>
+        <item>11.ثلاثي النَّاقِصُ اليائِيُّ</item>
+        <item>12.ثلاثي  اللّفِيْفُ المَفْرُمْقُ</item>
+        <item>13.ثلاثي  اللّفِيْفُ المَقْروْنُ</item>
+
+
+    </string-array>
+</resources>

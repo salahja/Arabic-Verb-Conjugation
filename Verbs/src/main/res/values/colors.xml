@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!-- app palette -->
+
+
+    <color name="color_primary_variant">#04486E</color>
+    <!-- Orange 700 -->
+    <!-- Red 600 -->
+    <!-- excelent against white -->
+
+    <color name="burntamber">#330000</color>
+    <color name="kashmirigreen">#003300</color>
+    <color name="midnightblue">#000033</color><![CDATA[
+
+
+
+
+    //good
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    !-- excelent against black -->
+    ]]>
+    <color name="yellow">#FFFF00</color>
+    <color name="cyan">#00FFFF</color>
+
+    <!--Color primary (dark)-->
+    <!--Color primary (light)-->
+    <!--Color primary variant (dark)-->
+    <!--Color primary variant (light)-->
+
+    <!--Color secondary-->
+
+    <!--Color secondary variant-->
+
+    <!--Color error (dark)-->
+    <!--Color error (light)-->
+    <!--Color surface (light), color on error (light), -->
+    <!--color on surface (dark), color on surface (dark)-->
+    <!--Color surface (dark)-->
+    <!--Color on secondary (light), color on background (light),-->
+    <!--color on surface (light)-->
+
+    <color name="transparent">@android:color/transparent</color>
+
+    <color name="colorOnPrimary">#003300</color>
+    <color name="dark_gray">#ffe7e7e7</color>
+
+
+    <color name="teal300">#4DB6AC</color>
+
+    <!-- http://ethanschoonover.com/solarized -->
+    <color name="solarizedBase02">#073642</color>
+
+
+    <color name="BlanchedAlmond">#FFEBCD</color>
+    <color name="Gold">#FFD700</color>
+    <color name="Goldenrod">#DAA520</color>
+    <color name="DarkGoldenrod">#B8860B</color>
+    <color name="CadetBlue">#5F9EA0</color>
+    <color name="RoyalBlue">#4169E1</color>
+
+    <color name="background_color_light_black">#ff1a1a1a</color>
+    <color name="background_color_light_brown">#ffeee7d2</color>
+    <color name="background_color_light_darkBlue">#ff21303f</color>
+    <color name="background_color_light_white">#fff5f5f5</color>
+    <color name="bg_black">#ff111111</color>
+    <color name="bg_brown">#fffff8e1</color>
+    <color name="bg_dark_blue">#ff16202a</color>
+    <color name="bg_white">#ffffffff</color>
+
+    <color name="cardview_dark_background">#ff424242</color>
+    <color name="errorColor">#ffcf6679</color>
+    <color name="light_red">#fff5e1e3</color>
+    <color name="neutral0">#ffffffff</color>
+    <color name="neutral1">#fff5f5f5</color>
+    <color name="neutral3">#ffc2c2c2</color>
+    <color name="neutral5">#ff8f8f8f</color>
+    <color name="neutral7">#ff5c5c5c</color>
+    <color name="neutral9">#ff1b1b1b</color>
+    <color name="neutral11">#330000</color>
+
+
+    <color name="odd_item_bg_black">#ff1a1a1a</color>
+    <color name="odd_item_bg_brown">#fff7eed5</color>
+    <color name="odd_item_bg_dark_blue">#ff1c2939</color>
+    <color name="odd_item_bg_white">#fff8fafc</color>
+    <color name="primaryColorBlack">#ff4592cf</color>
+    <color name="primaryColorBlackDark">#ff3176ba</color>
+    <color name="primaryColorBlackLight">#664592cf</color>
+    <color name="primaryColorBrown">#ff795548</color>
+    <color name="primaryColorBrownDark">#ff5e342e</color>
+    <color name="primaryColorBrownLight">#668e8380</color>
+    <color name="primaryColorDarkBlue">#ff4592cf</color>
+    <color name="primaryColorDarkBlueDark">#ff3176ba</color>
+    <color name="primaryColorDarkBlueLight">#662f6c9d</color>
+    <color name="primaryColorWhite">#ff4592cf</color>
+    <color name="primaryColorWhiteDark">#ff3176ba</color>
+    <color name="primaryColorWhiteLight">#6679bff8</color>
+    <color name="secondaryColorBrown">#ff009688</color>
+    <color name="secondaryColorBrownDark">#ff00897b</color>
+    <color name="secondaryColorLightBrown">#334aada4</color>
+    <color name="secondaryColorLightWhite">#33965646</color>
+    <color name="secondaryColorWhite">#ff8f4330</color>
+    <color name="secondaryColorWhiteDark">#ff6b3224</color>
+    <color name="color_surface">#FFFFFF</color>
+
+    <!-- <color name="colorPrimary">#FF9800</color> -->
+
+    <color name="colorPrimary">#FF9800</color>
+    <color name="colorPrimaryDark">#F57C00</color>
+
+    <color name="colorAccent">#FF5252</color>
+    <!-- text color: white -->
+    <!-- inverse text color: 87% black -->
+
+
+</resources>

@@ -1,0 +1,138 @@
+<resources>
+
+
+    <string name="app_name">Conjugator</string>
+
+
+    <string name="faelmazi">Past Activeٍ</string>
+    <string name="faelmudhary">Present Active</string>
+    <string name="faelmadimajhool">Past Passive </string>
+    <string name="faelmudharymajhol">Present Passive</string>
+    <string name="faelamr">Command</string>
+    <string name="title_activity_main">MainActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+
+    <string name="ismalaone">مِفْعَلٌ</string>
+    <string name="ismalatwo">مِفْعَلَةٌ</string>
+    <string name="ismalthree">مِفْعَالٌ</string>
+
+
+    <string name="zarfmafalun">مَفْعَلٌ</string>
+    <string name="zarfmafilun">مَفْعِلٌ</string>
+    <string name="zarfmafalatun">مَفْعَلةٌ</string>
+    <string name="lang">Language</string>
+    <string name="listin">Select</string>
+
+    <string-array name="arcase">
+
+        <item>الرفع </item>
+        <item>النصب</item>
+        <item>الجر  </item>
+
+    </string-array>
+
+    <string-array name="encase">
+
+        <item>Nom.</item>
+        <item>Acc.</item>
+        <item>Gen.</item>
+
+    </string-array>
+
+
+    <string-array name="arabicpronouns">
+
+        <item>هو </item>
+        <item>"هما(مذ)" </item>
+        <item>هم </item>
+        <item>هي </item>
+        <item>"هما(مؤ)" </item>
+        <item>هن </item>
+        <item>أنت</item>
+        <item>أنتما </item>
+        <item>أنتم </item>
+        <item>أنت </item>
+        <item>أنتما </item>
+        <item>أنتن </item>
+        <item>أنا  </item>
+        <item>نحن  </item>
+    </string-array>
+
+    <string-array name="verbliststhulathienglish">
+        <item>Thulathi-Selection</item>
+        <item>1.Thulathi Regular</item>
+        <item>2.Thulathi Mahmooz FA</item>
+        <item>3.Thulathi Mahmooz Ayn</item>
+        <item>4.Thulathi Mahmooz Lam</item>
+        <item>5.Thulathi Mithal Wawi</item>
+        <item>7.Thulathi Mithal Yayi</item>
+        <item>7.Thulathi Ajwaf Wawi</item>
+        <item>8.Thulathi Ajwaf Yayi</item>
+        <item>9.Thulathi Mudhaf</item>
+        <item>10.Thulathi NaqisWAWI</item>
+        <item>11.Thulathi NaqisYAYI</item>
+        <item>12.Thulathi Lafeef Mafrooq</item>
+        <item>13.Thulathi Lafeef Maqroon</item>
+
+
+    </string-array>
+
+    <string-array name="verbliststhulathiarabic">
+        <item>ثلاثي-اختيار</item>
+        <item>1.ثلاثي سالم</item>
+        <item>2.ثلاثي مَهْمُوْزُ الفاءِ</item>
+        <item>3.ثلاثي  مَهْمُوْزُ العَيْنِ</item>
+        <item>4.ثلاثي  مَهْمُوْزُ الاَمِ</item>
+        <item>5.ثلاثي  الْمِثَالُ الوَاوِيُّ</item>
+        <item>7.ثلاثي   الْمِثَالُ اليائِيُّ</item>
+        <item>7.ثلاثي الْأجْوافُ الوَاوِيُّ</item>
+        <item>8.ثلاثي الْأجْوافُ اليائِيُّ</item>
+        <item>9.ثلاثي مُضَافُ</item>
+        <item>10.ثلاثي النَّاقِصُ الوَاوِيُّ</item>
+        <item>11.ثلاثي النَّاقِصُ اليائِيُّ</item>
+        <item>12.ثلاثي  اللّفِيْفُ المَفْرُمْقُ</item>
+        <item>13.ثلاثي  اللّفِيْفُ المَقْروْنُ</item>
+
+
+    </string-array>
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+    <string name="notfound">Verb Not in Dict.</string>
+    <string name="settings_conjugator">Settings</string>
+    <string name="conjugator">Conjugator</string>
+    <string name="mazeed_list">Mazeed</string>
+    <string name="mujarradlist">Mujarrad</string>
+    <string name="moodsummar">indicative,Subjunctive,Jussive,Emphasized</string>
+    <string name="root_word">Root Word</string>
+    <string name="indicative">Indicative</string>
+    <string name="subjunctive">Subjunctive</string>
+    <string name="jussive">Jussive</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="pronouns">Pronouns</string>
+    <string name="Setting">Setting</string>
+    <string name="Mazeed">Mazeed</string>
+    <string name="loadingverbs">"Please wait! Loading Sample of 30 Verbs."</string>
+
+
+</resources>
