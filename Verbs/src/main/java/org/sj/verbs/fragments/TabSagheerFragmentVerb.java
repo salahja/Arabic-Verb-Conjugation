@@ -27,16 +27,15 @@ import org.sj.verbs.adapter.SarfMujarradSarfSagheerListingAdapter;
 import java.util.ArrayList;
 
 public class TabSagheerFragmentVerb extends Fragment {
-    private static final int WRITE_REQUEST_CODE = 101;
+
     private static final String TAG = "PermissionDemo";
 
-private Context context;
+private final Context context;
     // --Commented out by Inspection (31/1/21 5:51 AM):ArrayList<String> sarfkabeer = new ArrayList<>();
     RecyclerView recyclerView;
-    private String verbweakness;
     private SarfMujarradSarfSagheerListingAdapter sarfsagheerAdapter;
-    private ArrayList sarfSagheerThulathiArray;
-   // ArrayList sarfSagheerThulathiArray = new ArrayList();
+
+
 
     private String augmentedFormula;
     private String unaugmentedFormula;
@@ -52,7 +51,7 @@ private Context context;
         TabSagheerFragmentVerb f = new TabSagheerFragmentVerb(context);
 
         Bundle dataBundle = getArguments();
-        assert dataBundle != null;
+
         if (null != dataBundle) {
 
             dataBundle.getString(QURAN_VERB_ROOT);
@@ -76,8 +75,6 @@ private Context context;
 
     private ArrayList<ArrayList> skabeer = new ArrayList<>();
 
-    private int verbformmazeed;
-    private String verbformthulathi;
 
 
 
@@ -107,26 +104,24 @@ private Context context;
         setHasOptionsMenu(true);
         View view = inflater.inflate(R.layout.sarfheader, container, false);
         Bundle dataBundle = getArguments();
-        if(dataBundle.getString(VERBTYPE).equals("mujarrad")){
-            isUnAugmented=true;
-            unaugmentedFormula = dataBundle.getString(QURAN_VERB_WAZAN);
-        }else{
-            augmentedFormula = dataBundle.getString(QURAN_VERB_WAZAN);
-            isAugmented=true;
+        if(null!=dataBundle) {
+            if (dataBundle.getString(VERBTYPE).equals("mujarrad")) {
+                isUnAugmented = true;
+                unaugmentedFormula = dataBundle.getString(QURAN_VERB_WAZAN);
+            } else {
+                augmentedFormula = dataBundle.getString(QURAN_VERB_WAZAN);
+                isAugmented = true;
+            }
         }
-
-
-        verbroot = dataBundle.getString(QURAN_VERB_ROOT);
-        verbmood = dataBundle.getString(VERBCASE);
-
+        if(null!=dataBundle) {
+            verbroot = dataBundle.getString(QURAN_VERB_ROOT);
+            verbmood = dataBundle.getString(VERBCASE);
+        }
 
         recyclerView = view.findViewById(R.id.sarfrecview);
         skabeer = setUparrays(view);
-        //  AconSarfKabeerAdapter = new AconSarfKabeerAdapter(sarfkabeermadhi,skabeer, getActivity());
-        //   aconSarfKabeerAdapter = new AconSarfKabeerAdapter(skabeer, getActivity());
-        //  recyclerView.setAdapter(aconSarfKabeerAdapter);
 
-     return view;
+        return view;
     }
 
     @NotNull
@@ -140,7 +135,7 @@ private Context context;
 
         }else{
 
-           ;
+
                 initMazeedAdapterNew();
             }
 
@@ -154,7 +149,7 @@ private Context context;
 
 
     private void initMazeedAdapterNew() {
-         ArrayList sarfSagheerMazeedArray = new ArrayList();
+
 
         ArrayList<ArrayList> listing = GatherAll.getInstance().getMazeedListing(verbmood, verbroot, augmentedFormula);
         SarfSagheer ss=new SarfSagheer();
@@ -192,12 +187,12 @@ private Context context;
     }
 
     private void ninitThulathiAdapter() {
-      int babno=0;
 
-      //  OldSarfSagheer(babno);
+
+
         ArrayList<ArrayList> listing = GatherAll.getInstance().getMujarradListing(verbmood, verbroot, unaugmentedFormula);
-        ;
-        //InsertSarfSagheerThulathi(ANAQISYAYI);
+
+
 
 
         SarfSagheer ss=new SarfSagheer();
@@ -284,17 +279,6 @@ private Context context;
 
 */
 
-
-
-   //     ImageView ref;
-
-     //   ref = view.findViewById(R.id.dismissView);
-//        ref.setOnClickListener(view1 -> {
-
-
-
-
-    //    });
 
     }
 
