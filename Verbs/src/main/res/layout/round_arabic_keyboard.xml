@@ -1,408 +1,468 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
 
+    android:background="?android:attr/selectableItemBackground"
 
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    tools:ignore="MissingClass">
 
-    <RelativeLayout
-
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flex"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="center"
+        app:maxLine="1">
 
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tha"
 
-        <LinearLayout
-            android:id="@+id/toprow"
-
-            android:layout_width="match_parent"
-            android:layout_height="50dp">
-
-            <Button
-
-                android:id="@+id/dal"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="د"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <Button
-
-
-                android:id="@+id/kha"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="خ"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-
-            <Button
-
-                android:id="@+id/ha"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ح"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <Button
-
-                android:id="@+id/jeem"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="چ"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/tha"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ث"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/ta"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ت"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/ba"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ب"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/hamza"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ا"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/firstrow"
-            android:layout_below="@+id/toprow"
-            android:layout_width="match_parent"
-            android:layout_height="50dp">
-
-
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/toay"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ط"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <Button
-
-                android:id="@+id/dhad"
-                style="@style/AppButtonTwo"
-
-                android:layout_width="14dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ض"
-                android:textAllCaps="true"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-
-            <Button
-
-                android:id="@+id/suwad"
-                style="@style/AppButtonTwo"
-
-                android:layout_width="14dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ص"
-                android:textSize="24sp"
-                android:textStyle="bold"
-
-                />
-
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/sheen"
-                android:layout_width="14dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ش"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/seen"
-                android:layout_width="14dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="س"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/zaa"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ز"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/raa"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ر"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/dhal"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ذ"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/secondrow"
-            android:layout_width="match_parent"
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/firstrow"
-            android:gravity="top">
 
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/lam"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ل"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+            android:text="@string/tha"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/kaf"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ك"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/ta"
 
-            <Button
-
-                style="@style/AppButtonTwo"
-                android:id="@+id/qaf"
-                android:layout_width="14dp"
-                android:layout_height="50dp"
-                android:layout_gravity="top"
-                android:layout_weight="1"
-                android:text="ق"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-
-            <Button
-
-                style="@style/AppButtonTwo"
-                android:id="@+id/fa"
-                android:layout_width="9dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ف"
-                android:textSize="24sp"
-                android:textStyle="bold">
-
-            </Button>
-
-            <Button
-
-                style="@style/AppButtonTwo"
-                android:id="@+id/ghain"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="غ"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <Button
-
-                style="@style/AppButtonTwo"
-                android:id="@+id/ayn"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ع"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/zoay"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ظ"
-                android:textSize="24sp"
-                android:textStyle="bold" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/thirdrow"
-            android:layout_width="match_parent"
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/secondrow"
-            android:gravity="top">
 
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/tamarboota"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ة"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+            android:text="@string/ta"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/ya"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ي"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/ba"
 
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/waw"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="و"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
 
-            <Button
+            android:text="@string/ba"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-                style="@style/AppButtonTwo"
-                android:id="@+id/haaa"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ه"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/hamza"
 
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/nun"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ن"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
 
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/meem"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="م"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+            android:text="@string/alifhamza"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flex2"
+        android:layout_below="@+id/flex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="center"
+        app:maxLine="1">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dal"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/dal"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/kha"
 
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/thirdrow"
-            android:gravity="top">
-
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="@string/kha"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
 
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/key_AC"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ac"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/ha"
 
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/key_delete"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="DEL"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
 
-            <Button
-                style="@style/AppButtonTwo"
-                android:id="@+id/key_enter"
-                android:layout_width="8dp"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:text="ENTER"
-                android:textSize="24sp"
-                android:textStyle="bold" />
+            android:text="@string/ha"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/jeem"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/jeem"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flex3"
+        android:layout_below="@+id/flex2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="center"
+        app:maxLine="1">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/sheen"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/sheen"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/seen"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/seen"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
 
-        </LinearLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/zaa"
 
-    </RelativeLayout>
-</LinearLayout>
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/za"
+            android:textAllCaps="true"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/raa"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/ra"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dhal"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/zal"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_below="@+id/flex3"
+        android:id="@+id/flex4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="center"
+        app:maxLine="1">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dhad"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/dhuad"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/suwad"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/suad"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/qaf"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/qaf"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/fa"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/fa"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/ghain"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/ghain"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/ayn"
+
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="top"
+
+            android:text="@string/ayan"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:layout_below="@+id/flex4"
+        android:id="@+id/flex5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="center"
+        app:maxLine="1">
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/meem"
+
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/meem"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/lam"
+
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/lam"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/kaf"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/kaf"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/zoay"
+
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/zoa"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/toay"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/toay"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flex6"
+        android:layout_below="@+id/flex5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="center"
+        app:maxLine="1">
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/tamarboota"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/tamarboot"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/ya"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/ya"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/waw"
+
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/waw"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/haaa"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/Haa"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/nun"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/nuun"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+    <com.google.android.flexbox.FlexboxLayout
+        android:id="@+id/flex7"
+        android:layout_below="@+id/flex6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:flexDirection="row"
+        app:flexWrap="wrap"
+        app:justifyContent="center"
+        app:maxLine="1">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_AC"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/kclear"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_delete"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/kdelete"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/key_enter"
+
+            style="@style/Widget.Material3.Button.ElevatedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+
+            android:text="@string/kenter"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </com.google.android.flexbox.FlexboxLayout>
+
+</RelativeLayout>

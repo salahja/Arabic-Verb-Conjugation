@@ -115,6 +115,9 @@
     <item name="arabicword" type="id" />
     <item name="wordDictionary" type="id" />
     <item name="wordDictionaryUrdu" type="id" />
+    <item name="rdsubjunctive" type="id" />
+    <item name="rdjussive" type="id" />
+    <item name="babnos" type="id" />
 
 
 </resources>

@@ -408,5 +408,116 @@
 
     </style>
 
-
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/md_theme_light_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer</item>
+        <item name="colorError">@color/md_theme_light_error</item>
+        <item name="colorOnError">@color/md_theme_light_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_light_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_theme_light_onErrorContainer</item>
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <item name="android:colorBackground">@color/md_theme_light_background</item>
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="colorSurfaceInverse">@color/md_theme_light_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/md_theme_light_inverseOnSurface</item>
+        <item name="colorPrimaryInverse">@color/md_theme_light_inversePrimary</item>
+    </style>
+    <style name="AppTheme.DarkGreen" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/mdgreen_theme_dark_primary</item>
+        <item name="colorOnPrimary">@color/mdgreen_theme_dark_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/mdgreen_theme_dark_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/mdgreen_theme_dark_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/mdgreen_theme_dark_secondary</item>
+        <item name="colorOnSecondary">@color/mdgreen_theme_dark_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/mdgreen_theme_dark_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/mdgreen_theme_dark_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/mdgreen_theme_dark_tertiary</item>
+        <item name="colorOnTertiary">@color/mdgreen_theme_dark_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/mdgreen_theme_dark_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/mdgreen_theme_dark_onTertiaryContainer</item>
+        <item name="colorError">@color/mdgreen_theme_dark_error</item>
+        <item name="colorErrorContainer">@color/mdgreen_theme_dark_errorContainer</item>
+        <item name="colorOnError">@color/mdgreen_theme_dark_onError</item>
+        <item name="colorOnErrorContainer">@color/mdgreen_theme_dark_onErrorContainer</item>
+        <item name="android:colorBackground">@color/mdgreen_theme_dark_background</item>
+        <item name="colorOnBackground">@color/mdgreen_theme_dark_onBackground</item>
+        <item name="colorSurface">@color/mdgreen_theme_dark_surface</item>
+        <item name="colorOnSurface">@color/mdgreen_theme_dark_onSurface</item>
+        <item name="colorSurfaceVariant">@color/mdgreen_theme_dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/mdgreen_theme_dark_onSurfaceVariant</item>
+        <item name="colorOutline">@color/mdgreen_theme_dark_outline</item>
+        <item name="colorOnSurfaceInverse">@color/mdgreen_theme_dark_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/mdgreen_theme_dark_inverseSurface</item>
+        <item name="colorPrimaryInverse">@color/mdgreen_theme_dark_inversePrimary</item>
+    </style>
+    <style name="AppTheme.materialdarkblue" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/md_db__theme_dark_primary</item>
+        <item name="colorOnPrimary">@color/md_db__theme_dark_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_db__theme_dark_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_db__theme_dark_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_db__theme_dark_secondary</item>
+        <item name="colorOnSecondary">@color/md_db__theme_dark_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_db__theme_dark_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_db__theme_dark_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/md_db__theme_dark_tertiary</item>
+        <item name="colorOnTertiary">@color/md_db__theme_dark_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_db__theme_dark_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_db__theme_dark_onTertiaryContainer</item>
+        <item name="colorError">@color/md_db__theme_dark_error</item>
+        <item name="colorErrorContainer">@color/md_db__theme_dark_errorContainer</item>
+        <item name="colorOnError">@color/md_db__theme_dark_onError</item>
+        <item name="colorOnErrorContainer">@color/md_db__theme_dark_onErrorContainer</item>
+        <item name="android:colorBackground">@color/md_db__theme_dark_background</item>
+        <item name="colorOnBackground">@color/md_db__theme_dark_onBackground</item>
+        <item name="colorSurface">@color/md_db__theme_dark_surface</item>
+        <item name="colorOnSurface">@color/md_db__theme_dark_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_db__theme_dark_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_db__theme_dark_onSurfaceVariant</item>
+        <item name="colorOutline">@color/md_db__theme_dark_outline</item>
+        <item name="colorOnSurfaceInverse">@color/md_db__theme_dark_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/md_db__theme_dark_inverseSurface</item>
+        <item name="colorCustomColor1">#8aceff</item>
+        <item name="colorOnCustomColor1">#00344e</item>
+        <item name="colorCustomColor1Container">#004b6f</item>
+        <item name="colorOnCustomColor1Container">#c9e6ff</item>
+        <item name="harmonizeCustomColor1">true</item>
+        <item name="colorPrimaryInverse">@color/md_db__theme_dark_inversePrimary</item>
+    </style>
+    <style name="Theme.Browns" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:colorBackground">@color/bg_brown</item>
+        <item name="android:windowBackground">@color/bg_brown</item>
+        <item name="android:textViewStyle">@style/Base.Widget.TextView</item>
+        <item name="android:textColor">@color/neutral9</item>
+        <item name="android:colorBackgroundCacheHint">@color/bg_brown</item>
+        <item name="android:activatedBackgroundIndicator">@drawable/activatedbackground</item>
+        <item name="android:colorControlHighlight">?attr/colorPrimaryLight</item>
+        <item name="android:navigationBarColor">@color/primaryColorBrownDark</item>
+        <item name="colorControlNormal">@color/neutral5</item>
+        <item name="colorError">@color/errorColor</item>
+        <item name="colorOnError">@color/neutral0</item>
+        <item name="colorOnSecondary">@color/neutral0</item>
+        <item name="colorPrimary">#8A6914</item>
+        <item name="colorPrimaryDark">@color/primaryColorBrownDark</item>
+        <item name="colorPrimaryLight">@color/primaryColorBrownLight</item>
+        <item name="colorPrimaryVariant">@color/primaryColorBrownDark</item>
+        <item name="colorSecondary">@color/secondaryColorBrown</item>
+        <item name="colorSecondaryVariant">@color/secondaryColorLightBrown</item>
+        <item name="colorSurface">@color/bg_surface_brown</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="textColorLight">@color/neutral7</item>
+    </style>
 </resources>

@@ -16,7 +16,11 @@
 
 <resources>
 
-
+    <attr name="colorCustomColor1" format="color" />
+    <attr name="colorOnCustomColor1" format="color" />
+    <attr name="colorCustomColor1Container" format="color" />
+    <attr name="colorOnCustomColor1Container" format="color" />
+    <attr name="harmonizeCustomColor1" format="boolean" />
     <attr name="bgColor" format="color"/>
     <attr name="textColor" format="color"/>
     <attr name="metaTextColor" format="color"/>

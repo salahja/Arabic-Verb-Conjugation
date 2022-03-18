@@ -2,96 +2,8 @@
   "formatVersion": 1,
   "database": {
     "version": 2,
-    "identityHash": "6bacb2c28e629d5aa33fe5f5037742ac",
+    "identityHash": "e4a7d384a702fe093905c1570438a6cd",
     "entities": [
-      {
-        "tableName": "hansdictionary",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`rootword` TEXT NOT NULL, `word` TEXT NOT NULL, `parentid` INTEGER NOT NULL, `definition` TEXT NOT NULL, `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL)",
-        "fields": [
-          {
-            "fieldPath": "rootword",
-            "columnName": "rootword",
-            "affinity": "TEXT",
-            "notNull": true
-          },
-          {
-            "fieldPath": "word",
-            "columnName": "word",
-            "affinity": "TEXT",
-            "notNull": true
-          },
-          {
-            "fieldPath": "parentid",
-            "columnName": "parentid",
-            "affinity": "INTEGER",
-            "notNull": true
-          },
-          {
-            "fieldPath": "definition",
-            "columnName": "definition",
-            "affinity": "TEXT",
-            "notNull": true
-          },
-          {
-            "fieldPath": "id",
-            "columnName": "id",
-            "affinity": "INTEGER",
-            "notNull": true
-          }
-        ],
-        "primaryKey": {
-          "columnNames": [
-            "id"
-          ],
-          "autoGenerate": true
-        },
-        "indices": [],
-        "foreignKeys": []
-      },
-      {
-        "tableName": "laneslexicon",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`rootword` TEXT NOT NULL, `word` TEXT NOT NULL, `parentid` INTEGER NOT NULL, `definition` TEXT NOT NULL, `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL)",
-        "fields": [
-          {
-            "fieldPath": "rootword",
-            "columnName": "rootword",
-            "affinity": "TEXT",
-            "notNull": true
-          },
-          {
-            "fieldPath": "word",
-            "columnName": "word",
-            "affinity": "TEXT",
-            "notNull": true
-          },
-          {
-            "fieldPath": "parentid",
-            "columnName": "parentid",
-            "affinity": "INTEGER",
-            "notNull": true
-          },
-          {
-            "fieldPath": "definition",
-            "columnName": "definition",
-            "affinity": "TEXT",
-            "notNull": true
-          },
-          {
-            "fieldPath": "id",
-            "columnName": "id",
-            "affinity": "INTEGER",
-            "notNull": true
-          }
-        ],
-        "primaryKey": {
-          "columnNames": [
-            "id"
-          ],
-          "autoGenerate": true
-        },
-        "indices": [],
-        "foreignKeys": []
-      },
       {
         "tableName": "mazeed",
         "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`root` TEXT NOT NULL, `form` TEXT NOT NULL, `verbtype` TEXT NOT NULL, `babname` TEXT NOT NULL, `kov` TEXT NOT NULL, `kovname` TEXT NOT NULL, `id` INTEGER NOT NULL, PRIMARY KEY(`id`))",
@@ -267,37 +179,121 @@
         "foreignKeys": []
       },
       {
-        "tableName": "mazeeddictionary",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`root` TEXT NOT NULL, `form` TEXT NOT NULL, `verbtype` TEXT NOT NULL, `id` INTEGER NOT NULL, `babname` TEXT NOT NULL, PRIMARY KEY(`id`))",
+        "tableName": "verbcorpus",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`chapterno` INTEGER NOT NULL, `verseno` INTEGER NOT NULL, `wordno` INTEGER NOT NULL, `token` INTEGER NOT NULL, `root_a` TEXT, `form` TEXT, `thulathibab` TEXT, `tag` TEXT, `details` TEXT, `POS` TEXT, `tense` TEXT, `voice` TEXT, `lemma_b` TEXT, `root_b` TEXT, `gendernumber` TEXT, `mood_kananumbers` TEXT, `kana_mood` TEXT, `lemma_a` TEXT, `id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL)",
         "fields": [
           {
-            "fieldPath": "root",
-            "columnName": "root",
-            "affinity": "TEXT",
+            "fieldPath": "chapterno",
+            "columnName": "chapterno",
+            "affinity": "INTEGER",
             "notNull": true
+          },
+          {
+            "fieldPath": "verseno",
+            "columnName": "verseno",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "wordno",
+            "columnName": "wordno",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "token",
+            "columnName": "token",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "root_a",
+            "columnName": "root_a",
+            "affinity": "TEXT",
+            "notNull": false
           },
           {
             "fieldPath": "form",
             "columnName": "form",
             "affinity": "TEXT",
-            "notNull": true
+            "notNull": false
           },
           {
-            "fieldPath": "verbtype",
-            "columnName": "verbtype",
+            "fieldPath": "thulathibab",
+            "columnName": "thulathibab",
             "affinity": "TEXT",
-            "notNull": true
+            "notNull": false
+          },
+          {
+            "fieldPath": "tag",
+            "columnName": "tag",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "details",
+            "columnName": "details",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "POS",
+            "columnName": "POS",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "tense",
+            "columnName": "tense",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "voice",
+            "columnName": "voice",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "lemma_b",
+            "columnName": "lemma_b",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "root_b",
+            "columnName": "root_b",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "gendernumber",
+            "columnName": "gendernumber",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "mood_kananumbers",
+            "columnName": "mood_kananumbers",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "kana_mood",
+            "columnName": "kana_mood",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "lemma_a",
+            "columnName": "lemma_a",
+            "affinity": "TEXT",
+            "notNull": false
           },
           {
             "fieldPath": "id",
             "columnName": "id",
             "affinity": "INTEGER",
-            "notNull": true
-          },
-          {
-            "fieldPath": "babname",
-            "columnName": "babname",
-            "affinity": "TEXT",
             "notNull": true
           }
         ],
@@ -305,7 +301,7 @@
           "columnNames": [
             "id"
           ],
-          "autoGenerate": false
+          "autoGenerate": true
         },
         "indices": [],
         "foreignKeys": []
@@ -355,8 +351,8 @@
         "foreignKeys": []
       },
       {
-        "tableName": "quranicverbs",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`verb` TEXT, `root` TEXT, `thulathibab` TEXT, `form` INTEGER NOT NULL, `chaptername` TEXT, `frequency` INTEGER NOT NULL, `meaning` TEXT, `id` INTEGER NOT NULL, PRIMARY KEY(`id`))",
+        "tableName": "quranverbs",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`verb` TEXT, `root` TEXT, `thulathibab` TEXT, `form` TEXT, `frequency` TEXT, `meaning` TEXT, `id` INTEGER NOT NULL, PRIMARY KEY(`id`))",
         "fields": [
           {
             "fieldPath": "verb",
@@ -379,20 +375,14 @@
           {
             "fieldPath": "form",
             "columnName": "form",
-            "affinity": "INTEGER",
-            "notNull": true
-          },
-          {
-            "fieldPath": "chaptername",
-            "columnName": "chaptername",
             "affinity": "TEXT",
             "notNull": false
           },
           {
             "fieldPath": "frequency",
             "columnName": "frequency",
-            "affinity": "INTEGER",
-            "notNull": true
+            "affinity": "TEXT",
+            "notNull": false
           },
           {
             "fieldPath": "meaning",
@@ -420,7 +410,7 @@
     "views": [],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '6bacb2c28e629d5aa33fe5f5037742ac')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'e4a7d384a702fe093905c1570438a6cd')"
     ]
   }
 }

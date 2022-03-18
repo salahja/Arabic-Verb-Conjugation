@@ -2,6 +2,7 @@ package database.entity;
 
 import androidx.annotation.NonNull;
 import androidx.room.Entity;
+import androidx.room.Ignore;
 import androidx.room.PrimaryKey;
 @Entity(tableName = "mujarrad")
 public class MujarradVerbs {
@@ -21,6 +22,12 @@ public class MujarradVerbs {
     @NonNull
     @PrimaryKey(autoGenerate = true)
     public int id;
+
+
+    @Ignore
+    public MujarradVerbs(String verb, String root, String babname, String verbtype) {
+        this.verb=verb; this.root=root;this.babname=babname;this.verbtype=verbtype;
+    }
 
     @NonNull
     public String getVerb() {

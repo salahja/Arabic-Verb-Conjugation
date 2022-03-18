@@ -9,18 +9,19 @@
 
     <application
         android:allowBackup="true"
-        android:name=".VerbConjugaorApp"
+        android:name="org.sj.conjugator.utilities.VerbConjugaorApp"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DarkBlue">
+        android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar">
 
         <activity
-            android:name=".sarf.MainActivity"
+            android:name="org.sj.conjugator.MainActivity"
             android:label="@string/title_activity_main"
-            android:windowSoftInputMode="stateAlwaysHidden">
+            android:windowSoftInputMode="stateAlwaysHidden"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,33 +29,33 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.SarfSagheerActivity"
-            android:parentActivityName=".sarf.MainActivity">
+            android:name="org.sj.conjugator.activity.SarfSagheerActivity"
+            android:parentActivityName="org.sj.conjugator.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".sarf.MainActivity" />
+                android:value="org.sj.conjugator.MainActivity" />
         </activity>
         <activity
             android:name=".activity.SettingsActivity"
-            android:parentActivityName=".sarf.MainActivity">
+            android:parentActivityName="org.sj.conjugator.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:label="@string/title_activity_settings"
-                android:value=".sarf.MainActivity" />
+                android:value="org.sj.conjugator.MainActivity" />
         </activity>
         <activity
-            android:name=".activity.NewTabsActivity"
-            android:parentActivityName=".sarf.MainActivity">
+            android:name="org.sj.conjugator.activity.ConjugatorTabsActivity"
+            android:parentActivityName="org.sj.conjugator.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".sarf.MainActivity" />
+                android:value="org.sj.conjugator.MainActivity" />
         </activity>
         <activity
-            android:name=".activity.ConjugatorAct"
-            android:parentActivityName=".sarf.MainActivity">
+            android:name="org.sj.conjugator.activity.ConjugatorAct"
+            android:parentActivityName="org.sj.conjugator.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".sarf.MainActivity" />
+                android:value="org.sj.conjugator.MainActivity" />
         </activity>
     </application>
 

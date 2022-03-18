@@ -31,7 +31,7 @@
         android:layout_height="match_parent" />
 
 
-    <org.sj.verbs.MovableFloatingActionButton
+    <org.sj.conjugator.utilities.MovableFloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"

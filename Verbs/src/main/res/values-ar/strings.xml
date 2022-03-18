@@ -26,6 +26,9 @@
     <string name="zarfmafilun">مَفْعِلٌ</string>
     <string name="zarfmafalatun">مَفْعَلةٌ</string>
 
+
+
+
     <string-array name="verbliststhulathienglish">
         <item>ثلاثي-اختيار</item>
         <item>1.ثلاثي سالم</item>
@@ -44,5 +47,71 @@
 
 
     </string-array>
+    <string name="notfound">Verb Not in Dict.</string>
+    <string name="settings_conjugator">Settings</string>
+    <string name="conjugator">Conjugator</string>
+    <string name="mazeed_list">Mazeed</string>
+    <string name="mujarradlist">Mujarrad</string>
+    <string name="moodsummar">indicative,Subjunctive,Jussive,Emphasized</string>
+    <string name="root_word">Root Word</string>
+    <string name="indicative">Indicative</string>
+    <string name="subjunctive">Subjunctive</string>
+    <string name="jussive">Jussive</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="pronouns">Pronouns</string>
+    <string name="Setting">Setting</string>
+    <string name="Mazeed">Mazeed</string>
+    <string name="loadingverbs">"Please wait! Loading Sample of 30 Verbs."</string>
+    <string name="_text_arabic">Arabic</string>
+    <string name="emphasized">Emphasized</string>
+    <string name="iftiala">Iftiala</string>
+    <string name="istifala">Istifala</string>
+    <string name="jeem">چ</string>
+    <string name="tha">ث</string>
+    <string name="ta">ت</string>
+    <string name="ba">ب</string>
+    <string name="alifhamza">ا</string>
+    <string name="dal">د</string>
+    <string name="kha">خ</string>
+    <string name="ha">ح</string>
+    <string name="toay">ط</string>
+    <string name="dhuad">ض</string>
+    <string name="suad">ص</string>
+    <string name="sheen">ش</string>
+    <string name="za">ز</string>
+    <string name="ra">ر</string>
+    <string name="zal">ذ</string>
+    <string name="lam">ل</string>
+    <string name="kaf">ك</string>
+    <string name="qaf">ق</string>
+    <string name="fa">ف</string>
+    <string name="ghain">غ</string>
+    <string name="ayan">ع</string>
+    <string name="zoa">ظ</string>
+    <string name="tamarboot">ة</string>
+    <string name="ya">ي</string>
+    <string name="waw">و</string>
+    <string name="Haa">ه</string>
+    <string name="nuun">ن</string>
+    <string name="meem">م</string>
+    <string name="kclear">ac</string>
+    <string name="kdelete">DEL</string>
+    <string name="kenter">ENTER</string>
+    <string name="seen">س</string>
 
 </resources>

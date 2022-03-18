@@ -17,7 +17,7 @@
             android:key="lang"
             android:title="@string/lang" />
         <ListPreference
-            app:defaultValue="dark"
+            app:defaultValue="brown"
             app:dialogTitle="Choose theme"
             app:entries="@array/themeListArray"
             app:entryValues="@array/themeEntryArray"
