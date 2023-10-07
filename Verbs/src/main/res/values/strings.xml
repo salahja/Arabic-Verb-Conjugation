@@ -170,6 +170,15 @@
     <string name="kenter">ENTER</string>
     <string name="seen">س</string>
     <string name="masdar">Masdar</string>
+    <string name="brown">Brown</string>
+    <string name="select_theme">Select Theme</string>
+    <string name="dark_green">Dark Green</string>
+    <string name="dark_blue">Dark Blue</string>
+    <string name="black">Black</string>
+    <string name="light">Light</string>
+    <string name="seek_summary">Summary</string>
+    <string name="seeksummaryarabic">Arabic Font Selection</string>
+    <string name="seek_title">English Font Selection</string>
 
 
 </resources>

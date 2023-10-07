@@ -118,6 +118,10 @@
     <item name="rdsubjunctive" type="id" />
     <item name="rdjussive" type="id" />
     <item name="babnos" type="id" />
+    <item name="quranictext" type="id" />
+    <item name="mequrantext" type="id" />
+    <item name="qalamtext" type="id" />
+    <item name="header" type="id" />
 
 
 </resources>

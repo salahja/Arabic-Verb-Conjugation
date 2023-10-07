@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+
+        app:key="sarfkabeer_display"
+        app:title="Sarf Kabeer Display">
+        <ListPreference
+            android:defaultValue="@string/indicative"
+            android:entries="@array/verbmoodsList"
+            android:entryValues="@array/verbmoodEntry"
+            android:key="verbcase"
+            android:summary="@string/moodsummar"
+            android:title="Verb Moods" />
+        <SwitchPreference
+
+            android:defaultValue="true"
+            android:key="sarfkabeer_format_verb"
+            android:title="Traditional-Verb Conjugation" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="sarfkabeer_format_participles"
+            android:title="Traditional-Participles etc" />
+        <ListPreference
+
+            android:defaultValue="en"
+            android:entries="@array/lang_names"
+            android:entryValues="@array/lang_codes"
+            android:key="lang"
+            android:title="@string/lang" />
+
+    </PreferenceCategory>
+
+
+
+
+    <PreferenceCategory
+        app:key="arabic_font_category"
+        app:title="Arabic Fonts">
+
+        <Preference
+            android:defaultValue="quranicfontregular.ttf"
+
+            android:key="Arabic_Font_Selection"
+
+            android:title="Select Fonts"
+            app:fragment="com.example.mushafconsolidated.fragments.ActivitySettings$SelectQuranFronts"
+            app:icon="@drawable/ic_baseline_font_download_24" />
+
+
+        <Preference
+            android:defaultValue="dark"
+           android:key="themepref"
+            app:fragment="com.example.mushafconsolidated.fragments.ActivitySettings$SelectQuranFronts"
+            app:icon="@drawable/ic_baseline_format_paint_34"
+            app:title="Choose theme"
+            app:useSimpleSummaryProvider="true" />/>
+    </PreferenceCategory>
+
+    <SeekBarPreference
+        android:max="60"
+        app:defaultValue="22"
+        app:key="pref_font_arabic_key"
+        app:min="12"
+        app:showSeekBarValue="true"
+        app:summary="@string/seek_summary"
+        app:title="@string/seeksummaryarabic" />
+
+    <SeekBarPreference
+        android:max="60"
+        app:defaultValue="22"
+        app:key="pref_font_englsh_key"
+        app:min="12"
+        app:showSeekBarValue="true"
+        app:summary="@string/seek_summary"
+        app:title="@string/seek_title" />
+
+
+
+
+
+    <Preference
+        android:defaultValue="exit"
+        android:title="Exit"
+        app:fragment="com.example.mushafconsolidated.fragments.ActivitySettings"
+        app:icon="@drawable/ic_baseline_history_pink_24"
+        app:iconSpaceReserved="true"
+
+        app:key="Exit" />
+
+</PreferenceScreen>

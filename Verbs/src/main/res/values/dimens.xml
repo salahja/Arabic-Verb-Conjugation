@@ -35,6 +35,7 @@ inner_frame_layout_padding (below variable) on round screens.
     <dimen name="mushaf_small_component_corner_radius">24dp</dimen>
 <dimen name="mushaf_medium_component_corner_radius">5dp</dimen>
 <dimen name="mushaf_large_component_corner_radius">22dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
 
 </resources>
 

@@ -36,7 +36,7 @@
                 android:value="org.sj.conjugator.MainActivity" />
         </activity>
         <activity
-            android:name=".activity.SettingsActivity"
+            android:name="org.sj.conjugator.activity.ActivitySettings"
             android:parentActivityName="org.sj.conjugator.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
